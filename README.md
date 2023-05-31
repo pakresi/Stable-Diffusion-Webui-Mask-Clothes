@@ -5,6 +5,12 @@ Extension for [webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). 
 
 Find "Create Mask of Clothes" in the Extras tab after installing the extension.
 
+# Usage:
+
+Create mask 
+Upload mask to img2img > inpaint upload > mask
+Start Creating new photos
+
 # Models:
 
 1- Rembg: u2net_cloth_seg ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_cloth_seg.onnx), [source](https://github.com/levindabhi/cloth-segmentation)): A pre-trained model for Cloths Parsing from human portrait. Here clothes are parsed into 3 category: Upper body, Lower body and Full body.
